@@ -3,7 +3,7 @@ pipeline {
 
   tools {
     maven 'Maven3'    // must match name in Global Tool Configuration
-    jdk 'jdk11'       // optional if you set a JDK tool name
+    jdk 'jdk25'       // optional if you set a JDK tool name
   }
 
   environment {
